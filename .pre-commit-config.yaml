@@ -30,9 +30,9 @@ repos:
         args: [-over=15]
       - id: validate-toml
       - id: no-go-testing
-      # - id: golangci-lint
+      - id: golangci-lint
       # - id: go-critic
       - id: go-unit-tests
       - id: go-build
       - id: go-mod-tidy
-# need to install go-lint go-imports go-cyclo golangci-lint go-critic
+# need to install go-lint go-imports go-cyclo go-critic
